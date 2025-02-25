@@ -1,0 +1,13 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .letter {
+      font-family: 'Poppins', sans-serif;
+      font-size: 48px;
+      font-weight: bold;
+      fill: #3498DB;
+    }
+  </style>
+  <rect width="64" height="64" rx="10" ry="10" fill="#ffffff" stroke="#3498DB" stroke-width="4"/>
+  <text x="16" y="46" class="letter">N</text>
+</svg>
+

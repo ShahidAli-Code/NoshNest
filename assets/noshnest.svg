@@ -1,0 +1,29 @@
+<svg width="300" height="100" viewBox="0 0 300 100" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .text {
+      font-family: 'Poppins', sans-serif;
+      font-size: 38px;
+      font-weight: bold;
+      fill: #3498DB;
+      letter-spacing: 3px;
+    }
+    .icon {
+      fill: #3498DB;
+      stroke: #2980B9;
+      stroke-width: 3;
+    }
+    .circle {
+      fill: #85C1E9;
+      stroke: #2980B9;
+      stroke-width: 3;
+    }
+    .shadow {
+      filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.3));
+    }
+  </style>
+  <g transform="translate(20,20)" class="shadow">
+    <circle class="circle" cx="25" cy="25" r="22"/>
+    <path class="icon" d="M18 35V5a5 5 0 1 1 10 0v30h-2v20a3 3 0 0 1-6 0V35h-2zM36 12a5 5 0 0 1 10 0v23h-2v20a3 3 0 0 1-6 0V35h-2V12z"/>
+  </g>
+  <text x="70" y="65" class="text">NoshNest</text>
+</svg>
