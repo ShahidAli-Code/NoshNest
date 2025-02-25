@@ -422,22 +422,29 @@ Hero
 .hero-text {
   color: var(--white);
   text-align: center;
-  h1{
-    font-size: 10rem;
-    color:var(--primary-500);
-    font-weight: bold;
-    span{
-      color: whitesmoke;
-    }
-  }
-  h4{
-    color: var(--primary-500);
-    font-weight: bold;
-    span{
-      color: whitesmoke;
-    }
-  }
 }
+
+.hero-text h1 {
+  font-size: 2rem;
+  color: var(--primary-500);
+  font-weight: bold;
+}
+
+.hero-text h1 span {
+  color: whitesmoke;
+}
+
+.hero-text h4 {
+  color: var(--primary-500);
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.hero-text h4 span {
+  color: whitesmoke;
+}
+
+
 
 @media only screen and (min-width: 768px) {
   .hero-text h1 {
